@@ -91,7 +91,7 @@ a {
 .information {
     display: flex;
     flex-direction: column;
-    padding: 50px 200px 100px 200px;
+    padding: 50px 275px 100px 275px;
     gap: 50px;
 }
 
@@ -106,9 +106,8 @@ a {
 
 .information-card-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: stretch;
-    gap: 50px;
 }
 
 .information-img {
@@ -129,4 +128,5 @@ a {
     display: flex;
     flex-direction: column;
     width: 175px;
+    gap: 10px;
 }
