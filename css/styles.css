@@ -182,3 +182,13 @@ a {
     border-radius: 10px;
     border: 2px solid #f9faf8;
 }
+
+.footer {
+    background-color: #1f2937;
+    padding: 25px 200px 25px 200px;
+}
+
+.footer-content {
+    color: #f9faf8;
+    text-align: center;
+}
