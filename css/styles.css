@@ -87,3 +87,47 @@ a {
     align-items: center;
     flex: 1;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px 100px 200px;
+    gap: 50px;
+}
+
+.information .title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+}
+
+.information .img {
+    width: 175px;
+    height: 175px;
+    border: 3px solid blue;
+    border-radius: 20px;
+    flex-basis: auto;
+    background-color: white;
+}
+
+.information .content {
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.information .card {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+}
