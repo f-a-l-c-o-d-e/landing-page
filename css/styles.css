@@ -130,3 +130,22 @@ a {
     width: 175px;
     gap: 10px;
 }
+
+.quote {
+    padding: 100px 275px 75px 275px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote-content {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+}
