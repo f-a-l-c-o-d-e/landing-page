@@ -27,46 +27,46 @@ a {
     gap: 100px;
 }
 
-.menu {
+.header-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
+.header-logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
 }
 
-.links {
+.header-links {
     font-size: 18px;
     display: flex;
     gap: 20px;
 }
 
-.introduction {
+.header-introduction {
     display: flex;
     gap: 50px;
     align-items: center;
 }
 
-.text {
+.header-text {
     flex: 1;
 }
 
-.title {
+.header-title {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 1000;
 }
 
-.content {
+.header-content {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.sign-up {
+.header-sign-up {
     background-color: #3882f6;
     padding: 8px 24px;
     font-size: 18px;
@@ -77,7 +77,7 @@ a {
     margin-top: 10px;
 }
 
-.img {
+.header-img {
     width: 500px;
     height: 250px;
     background-color: grey;
@@ -95,7 +95,7 @@ a {
     gap: 50px;
 }
 
-.information .title {
+.information-title {
     font-size: 36px;
     color: #1f2937;
     font-weight: 1000;
@@ -104,29 +104,28 @@ a {
     align-items: center;
 }
 
-.card-container {
+.information-card-container {
     display: flex;
     justify-content: center;
     align-items: stretch;
     gap: 50px;
 }
 
-.information .img {
+.information-img {
     width: 175px;
     height: 175px;
     border: 3px solid blue;
     border-radius: 20px;
     flex-basis: auto;
-    background-color: white;
 }
 
-.information .content {
+.information-content {
     font-size: 18px;
     color: #1f2937;
     text-align: center;
 }
 
-.information .card {
+.information-card {
     display: flex;
     flex-direction: column;
     width: 175px;
